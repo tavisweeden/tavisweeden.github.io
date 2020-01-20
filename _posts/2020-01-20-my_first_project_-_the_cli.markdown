@@ -12,7 +12,7 @@ The Command Line Interface Project gives students an opportunity to test what th
 
 The first and foremost challenge I faced was learning to use a public API to fetch data from. I chose an API as opposed to scraping after being urged to by our cohort lead. Apparently, many students in her last cohort had experienced application errors due to the webpages they scraped having changed. I thought it was a prudent idea and set forth finding a suitable API. 
 
-I selected an API that didn’t require a key to make requests; just to simplify the process. My API provided users access to a database of information relating to the Star Wars films. I opted to create an application that would allow a user to select a particular Star Wars character, and would return a list basic data for that character. 
+I selected an API that didn’t require a key to make requests; just to simplify the process. My API provided users access to a database of information relating to the Star Wars films. I opted to create an application that would allow a user to select a particular Star Wars character, and would return a list of basic data for that character. 
 
 As there are no lessons on using API’s in the Flatiron curriculum, I had to rely on the available videos and the internet when learning how to use the API data in my program. I was eventually able to query the API and have data in the form of JSON returned to my application. The data contained all of the characters and their attributes. I created a method to iterate over this data, which was essentially a hash, and stored it in an object that sorted it by attribute type. 
 
